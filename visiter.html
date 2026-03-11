@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="preload">
+    <header>
+        <h1>Registration 🧍</h1>
+        <div >
+            <a class="return" href="rideandroar.html"> BACK TO HOME PAGE</a>
+        </div>
+    </header>
+    <main>
+    <h2>Register As A Visitor</h2>
+        <form class="register" action="submit.php" method="post">
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name"required> <br><br>
+            <label for="no.">Contact no. : </label>
+            <input type="text" id="no." name="no." required><br><br>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label>Gender : </label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="other">other <br><br>
+            <label for="verification">Upload id : </label>
+            <input type="file" name="verification" id="verification" required><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; 2025 RIDE AND ROAR <br>
+            *terms and condition apply 
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
